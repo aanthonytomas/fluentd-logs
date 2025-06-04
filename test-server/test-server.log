@@ -1,0 +1,9 @@
+Starting Fluentd Logging Demo
+This is an info message
+This is a warning message
+Error in calculation: Division by zero
+User action performed
+Order processed: {amount=99.99, orderId=ORD-12345, currency=USD}
+Fluentd Logging Demo completed
+{"message":"Starting Go Fluentd logging demo","timestamp":"2025-06-04T16:24:33+08:00"}
+{"action":"login","ip":"192.168.1.100","message":"User action","status":"success","timestamp":"2025-06-04T16:24:33+08:00","user":"john_doe"}
